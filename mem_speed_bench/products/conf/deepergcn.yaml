@@ -1,0 +1,14 @@
+architecture:
+  block: res+
+  gcn_aggr: softmax_sg
+  t: 0.1
+  num_layers: 14
+  mlp_layers: 1
+  norm: batch
+  hidden: 128
+  dropout: 0.5
+
+add_self_loop: True
+cluster_number: 10
+epochs: 500
+lr: 0.001

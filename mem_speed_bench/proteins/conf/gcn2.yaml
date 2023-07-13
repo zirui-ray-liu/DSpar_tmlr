@@ -1,0 +1,19 @@
+name: GCN2
+loop: true
+normalize: true
+architecture:
+  num_layers: 4
+  hidden_channels: 256
+  dropout: 0.5
+  batch_norm: false
+  residual: false
+  alpha: 0.2
+  theta: 0.5
+
+
+optim: adam
+adjust_lr: false
+use_labels: false
+lr: 0.01
+epochs: 1000
+log_steps: 1

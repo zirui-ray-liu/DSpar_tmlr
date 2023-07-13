@@ -1,0 +1,21 @@
+name: cluster_gcn
+inductive: False
+sampler:
+  num_parts: 2000 # 84.67 nodes per cluster
+  save_dir: ./data/OGB/ogbn_arxiv/processed
+  recursive: False
+  batch_size: 60
+arch_name: SAGE
+architecture:
+  num_layers: 3
+  hidden_channels: 256
+  dropout: 0.5
+  batch_norm: true
+  residual: false
+grad_norm: 0.5
+optim: adam
+lr: 0.01
+epochs: 500
+eval_start_epoch: 1
+eval_steps: 1
+log_steps: 1
