@@ -82,5 +82,22 @@ python ./arxiv/train_full_batch.py --conf ./arxiv/conf/$MODEL.yaml --n_bits $BIT
 ### Combining dspar and AMP
 Add the flag **--amp** to the above commends.
 
+## Citation
+
+If you find our method useful, please kindly cite our paper.
+
+```bibtex
+@article{
+liu2023dspar,
+title={{DS}par: An Embarrassingly Simple Strategy for Efficient {GNN} training and inference via Degree-based Sparsification},
+author={Zirui Liu and Kaixiong Zhou and Zhimeng Jiang and Li Li and Rui Chen and Soo-Hyun Choi and Xia Hu},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2023},
+url={https://openreview.net/forum?id=SaVEXFuozg},
+note={}
+}
+```
+
 ## Acknowledgment
 Our code is based on the official code of [GNNAutoScale](https://arxiv.org/abs/2106.05609).
