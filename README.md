@@ -1,4 +1,4 @@
-This is the official codes for DSpar: Embarrassingly Simple Strategy for Efficient GNN training and inference via Degree-based Sparsification.
+This is the official codes for [DSpar: Embarrassingly Simple Strategy for Efficient GNN training and inference via Degree-based Sparsification](https://openreview.net/forum?id=SaVEXFuozg).
 
 ## Install
 This code is tested with Python 3.8 and CUDA 11.0. To reproduce the results in this paper, please follow the below configuration.
